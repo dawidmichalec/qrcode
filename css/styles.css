@@ -1,0 +1,147 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    text-align:center;
+}
+
+.main {
+    margin:auto;
+    width:1440px;
+    height:auto;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-container {
+    width:23%;
+    border-radius:20px;
+    background-color:hsl(0, 0%, 100%);
+    padding:16px 0px 35px 0px;
+    margin:130px auto;
+}
+
+h3 {
+    width:80%;
+    margin:17px auto 17px ;
+    font-weight:700;
+    font-size: 140%;
+    color:hsl(218, 44%, 22%);
+}
+
+p {
+    width:80%;
+    font-size: 100%;
+    font-weight: 400;
+    margin:auto;
+    color:hsl(220, 15%, 55%);
+    padding:none;
+}
+
+.qr-image {
+    border-radius:13px;
+    width:91%;
+    height:50%
+    height:auto;
+}
+
+@media screen and (max-width:320px) {
+        .main {
+    margin:auto;
+    width:100%;
+    height:auto;
+    background-color: hsl(212, 45%, 89%);
+}
+
+h3 {
+    width:80%;
+    margin:17px auto 17px ;
+    font-weight:700;
+    font-size: 110%;
+    color:hsl(218, 44%, 22%);
+}
+
+p {
+    width:80%;
+    font-size: 75%;
+    font-weight: 400;
+    margin:auto;
+    color:hsl(220, 15%, 55%);
+    padding:none;
+}
+
+.qr-container {
+    width:95%;
+    border-radius:20px;
+    background-color:hsl(0, 0%, 100%);
+    padding:16px 0px 35px 0px;
+    margin:100px auto;
+}
+}
+
+@media screen and (min-width:360px) and (max-width:480px) {
+    .main {
+    margin:auto;
+    width:100%;
+    height:auto;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-container {
+    width:95%;
+    border-radius:20px;
+    background-color:hsl(0, 0%, 100%);
+    padding:16px 0px 35px 0px;
+    margin:100px auto;
+}
+
+h3 {
+    width:80%;
+    margin:17px auto 17px ;
+    font-weight:700;
+    font-size: 150%;
+    color:hsl(218, 44%, 22%);
+}
+
+p {
+    width:80%;
+    font-size: 110%;
+    font-weight: 400;
+    margin:auto;
+    color:hsl(220, 15%, 55%);
+    padding:none;
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .main {
+    margin:auto;
+    width:100%;
+    height:auto;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-container {
+    width:95%;
+    border-radius:20px;
+    background-color:hsl(0, 0%, 100%);
+    padding:16px 0px 35px 0px;
+    margin:100px auto;
+}
+
+h3 {
+    width:80%;
+    margin:17px auto 17px ;
+    font-weight:700;
+    font-size: 200%;
+    color:hsl(218, 44%, 22%);
+}
+
+p {
+    width:80%;
+    font-size: 150%;
+    font-weight: 400;
+    margin:auto;
+    color:hsl(220, 15%, 55%);
+    padding:none;
+}
+}
